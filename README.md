@@ -1,12 +1,3 @@
-**API de requests de predições hospedada no Heroku através do link** - 
-
-https://insurance-sales-predict.herokuapp.com/predict
-
-Orientações para o request: 
-1. Dataframe raw integral contendo index e response (apenas para estudo)
-2. Mínimo de duas amostras
-3. Formato json com orient do tipo records
-
 ## 1.1 Contexto:
 A Insurance All é uma empresa que fornece seguro de saúde para seus clientes e o time de produtos está analisando a possibilidade de oferecer aos assegurados, um novo produto: Um seguro de automóveis.
 
@@ -65,3 +56,12 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 10. Resultados e Conclusão
 
 ## 1.3 Sumário:
+
+## 1.4 API de requests de predições hospedada no Heroku através do link** - 
+
+https://insurance-sales-predict.herokuapp.com/predict
+
+Orientações para o request: 
+1. Dataframe raw integral contendo index e response (apenas para estudo)
+2. Mínimo de duas amostras
+3. Formato json com orient do tipo records
