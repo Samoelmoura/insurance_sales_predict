@@ -57,8 +57,9 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
 ## 1.3 Sumário:
 
-## 1.4 API de requests de predições hospedada no Heroku através do link** - 
+## 1.4 Deploy
 
+API de requests de predições hospedada no Heroku através do link
 https://insurance-sales-predict.herokuapp.com/predict
 
 Orientações para o request: 
