@@ -2,9 +2,7 @@
 ## Predicting Insurance Cross Sell
 ![](images/capa.jpg)
 
-## 1.0 Estágio do Projeto:
-Ciclo 10: Resultados e Conclusão
-
+## Estágio do Projeto: Criar storytelling para comunicar os resultados
 ## 1.1 Contexto:
 A Insurance All é uma empresa que fornece seguro de saúde para seus clientes e o time de produtos está analisando a possibilidade de oferecer aos assegurados, um novo produto: Um seguro de automóveis.
 
