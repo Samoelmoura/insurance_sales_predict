@@ -2,7 +2,6 @@
 ## Predicting Insurance Cross Sell
 ![](images/capa.jpg)
 
-## Estágio do Projeto: Criar storytelling para comunicar os resultados
 ## 1.1 Contexto:
 A Insurance All é uma empresa que fornece seguro de saúde para seus clientes e o time de produtos está analisando a possibilidade de oferecer aos assegurados, um novo produto: Um seguro de automóveis.
 
@@ -71,3 +70,8 @@ Orientações para o request:
 1. Dataframe raw integral contendo index e response (apenas para estudo)
 2. Mínimo de duas amostras
 3. Formato json com orient do tipo records
+
+## 1.5 Próximos Passos: Criar storytelling para comunicar os resultados
+
+## 1.6 Estágio do Projeto: Concluído
+![](images/stage.PNG)
