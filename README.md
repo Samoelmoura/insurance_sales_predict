@@ -17,27 +17,28 @@ https://sejaumdatascientist.com/como-usar-data-science-para-fazer-a-empresa-vend
 Projeto original disponível na plataforma Kaggle
 https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
+## 1.2 Tools, Requirements and Restrictions
+## 1.3 Business Assumptions
+## 1.4 Estratégia da Solução:
 
-## 1.2 Estratégia da Solução:
-
-###### 1.2.1 Objetivos:
+###### 1.4.1 Objetivos:
 1. Principais Insights sobre os atributos mais relevantes de clientes interessados em adquirir um seguro de automóvel.
 2. Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
 3. E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 4. Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 
-###### 1.2.2 Proposta de Solução:
+###### 1.4.2 Proposta de Solução:
 1. Gráficos e estudos de como as features se relacionam com a variávei alvo, individualmente ou combinadas através de Exploratory Data Analysis e Descriptive Statistics.
 2. Treinar um modelo de Machine Learning, scorar os clientes, priorizar os clientes segundo suas probabilidades de sucesso, utilizar das métricas para criar cenários com os 20.000 melhores.
 3. Utilizar do modelo anterior e criar cenários com os 40.000 melhores.
 4. Utilizar do modelo anterior, definir curva de probabilidades para todos os clientes e identificar ponto crítico.
 5. Fazer deploy e disponibilizar online através do Heroku
 
-###### 1.2.3 Inputs:
+###### 1.4.3 Inputs:
 1. Problema de negócio
 2. Conjunto de dados com características de 380.000 clientes e as suas respostas sobre interesse em adquirir um seguro de automóveis.
 
-###### 1.2.4 Outputs:
+###### 1.4.4 Outputs:
 1. Gráficos e parâmetros em uma tabela no notebook (Gráfico / Parâmetros)
 2. Resposta objetiva em um notebook (Uma porcentagem)
 3. Resposta objetiva em um notebook (Uma porcentagem)
@@ -45,7 +46,7 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 5. Tabela de banco de dados SQL com todas as classificações
 6. API com request/predict do tipo: | v1 | v2 | v3 | vn - 1/0
 
-###### 1.2.5 Ciclos:
+###### 1.4.5 Ciclos:
 1. Pipeline de dados, funcional, de ponta a ponta (desde a coleta de dados até o 
     treinamento do modelo)
 2. Entender os dados e limpa-los (buscar inconsistências) Análises de estatística
@@ -59,9 +60,15 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 9. Criar API
 10. Resultados e Conclusão
 
-## 1.3 Sumário:
+## 1.5 Top 3 Data Insights
+## 1.6 Machine Learning Applied
+## 1.7 Machine Learning Performance
+## 1.8 Business Results
+## 1.9 Conclusions
+## 1.10 Leasson Learned
+## 1.11 Sumário:
 
-## 1.4 Deploy
+## 1.12 Deploy
 
 API de requests de predições hospedada no Heroku através do link
 https://insurance-sales-predict.herokuapp.com/predict
@@ -71,7 +78,7 @@ Orientações para o request:
 2. Mínimo de duas amostras
 3. Formato json com orient do tipo records
 
-## 1.5 Próximos Passos: Criar storytelling para comunicar os resultados
+## 1.13 Próximos Passos: Criar storytelling para comunicar os resultados
 
-## 1.6 Estágio do Projeto: Concluído
+## 1.14 Estágio do Projeto: Concluído
 ![](images/stage.PNG)
