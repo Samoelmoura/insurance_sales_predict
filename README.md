@@ -1,6 +1,6 @@
 # Insurance All Company
 ## Predicting Insurance Cross Sell
-![](images/capa.jpg)
+![](img/capa.jpg)
 
 ## 1.1 Contexto:
 ### A Empresa Insurance All
@@ -118,4 +118,4 @@ Orientações para o request:
 ## 1.13 Próximos Passos: Criar storytelling para comunicar os resultados
 
 ## 1.14 Estágio do Projeto: Concluído
-![](images/stage.PNG)
+![](img/stage.PNG)
