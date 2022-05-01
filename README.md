@@ -1,6 +1,6 @@
 # Insurance All Company
 ## Predicting Insurance Cross Sell
-![](images/capa.jpg)
+![](img/capa.jpg)
 
 ## 1. Problema de Negócio:
 ### A Empresa Insurance All
