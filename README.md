@@ -94,7 +94,7 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 XGboost Classifier (falta implementar cross validation e configurar hiperparâmetros)
 
 ## 7. Machine Learning Performance
-![](images/model_performance.JPG)
+![](img/model_performance.JPG)
 
 ## 8. Business Results
 Em construção...
@@ -119,7 +119,7 @@ Orientações para o request:
 
 ## 13. Estágio do Projeto: 
 Conversão de métricas da performance do modelo em resultados financeiros
-![](images/stage.PNG)
+![](img/stage.PNG)
 
 ## 14. Sumário:
 * Id: identificador único do cliente.
