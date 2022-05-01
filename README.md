@@ -1,9 +1,13 @@
 # Insurance All Company
+
 ## Predicting Insurance Cross Sell
+
 ![](img/capa.jpg)
 
 ## 1. Problema de Negócio:
+
 ### A Empresa Insurance All
+
 A Insurance All é uma empresa que fornece seguro de saúde para seus clientes e o time de produtos está analisando a possibilidade de oferecer aos assegurados, um novo produto: Um seguro de automóveis.
 
 Assim como o seguro de saúde, os clientes desse novo plano de seguro de automóveis precisam pagar um valor anualmente à Insurance All para obter um valor assegurado pela empresa, destinado aos custos de um eventual acidente ou dano ao veículo.
@@ -15,6 +19,7 @@ O time de produtos selecionou 127 mil novos clientes que não responderam a pesq
 Contudo, o time de vendas tem uma capacidade de realizar 20 mil ligações dentro do período da campanha.
 
 ### O Desafio
+
 Nesse contexto, você foi contratado como um consultor de Ciência de Dados para construir um modelo que prediz se o cliente estaria ou não interessado no seguro de automóvel. 
 
 Com a sua solução, o time de vendas espera conseguir priorizar as pessoas com maior interesse no novo produto e assim, otimizar a campanha realizando apenas contatos aos clientes mais propensos a realizar a compra.
@@ -33,24 +38,29 @@ Projeto original disponível na plataforma Kaggle
 https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
 ## 2. Ferramentas e Requisitos
+
 2.1. Linguagem: Python
 2.2. Desenvolvimento e entrega do projeto: Jupyter Notebook
 2.3. Cloud: Heroku
 2.4. Plataforma de Request: Google Sheets
 
 ## 3. Premissas
+
 3.1. A variavel resposta (Response) será considerada neste projeto como uma aquisição real de seguro de automóvel, ainda que neste problema fictício ela representa somente uma resposta para uma mera pesquisa.
 3.2. Cada aquisição de seguros de automóvel trará para a empresa uma margem líquida de $5,000.00 ao ano.
 3.3. Cada ligação tem um custo de 16 dólares.
 
 ## 4. Planejamento da Solução:
+
 ###### 4.1. Objetivos:
+
 1. Principais Insights sobre os atributos mais relevantes de clientes interessados em adquirir um seguro de automóvel.
 2. Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
 3. E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 4. Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 
 ###### 4.2. Estratégia de Solução:
+
 1. Gráficos e estudos de como as features se relacionam com a variávei alvo, individualmente ou combinadas através de Exploratory Data Analysis e Descriptive Statistics.
 2. Treinar um modelo de Machine Learning, scorar os clientes, priorizar os clientes segundo suas probabilidades de sucesso, criar uma curva lift para criar cenários com os 20.000 melhores.
 3. Utilizar do modelo anterior e criar cenários com os 40.000 melhores.
@@ -58,10 +68,12 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 5. Fazer deploy no Heroku e disponibilizar em cloud através do Google Sheets
 
 ###### 4.3. Inputs:
+
 1. Problema de negócio
 2. Conjunto de dados com características de 380.000 clientes e as suas respostas sobre interesse em adquirir um seguro de automóveis.
 
 ###### 4.4. Outputs:
+
 * Pergunta 1: Um texto, em Jupyter Notebook
 * Pergunta 2: Um número, em Jupyter Notebook
 * Pergunta 3: Um número, em Jupyter Notebook
@@ -69,6 +81,7 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 * API com request por Google Sheets do tipo: | v1 | v2 | v3 | vn - 1/0
 
 ###### 4.5. Steps:
+
 1. Pipeline de dados, funcional, de ponta a ponta (desde a coleta de dados até o 
     treinamento do modelo)
 2. Entender os dados e limpa-los (buscar inconsistências) Análises de estatística
@@ -86,26 +99,33 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 10. Resultados e Conclusão
 
 ## 5. Top 3 Data Insights
+
 1. Clientes que já possuem seguro de automóvel dificilmente fecharão um contrato. 
 2. Clientes que já sofreram danos e acionaram o sinistro no passado são mais propensos a fechar um contrato.
 3. A região 28 contém 28% da base e tem uma média de Response de 18% de negócios fechados, bem acima da média geral.
 
 ## 6. Machine Learning Applied
+
 XGboost Classifier (falta implementar cross validation e configurar hiperparâmetros)
 
 ## 7. Machine Learning Performance
+
 ![](img/model_performance.JPG)
 
 ## 8. Business Results
+
 Em construção...
 
 ## 9. Conclusions
+
 Em construção...
 
 ## 10. Leasson Learned
+
 Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
 
 ## 11. Deploy
+
 API de requests de predições hospedada no Heroku através do link
 https://insurance-sales-predict.herokuapp.com/predict
 
@@ -115,9 +135,11 @@ Orientações para o request:
 3. Formato json com orient do tipo records
 
 ## 12. Próximos Passos: 
+
 * Entender melhor a feature Policy_sales_channel, ela pode ser impactante no momento de efetuar um contato de venda, os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto, número bem acima da média global.
 
 ## 13. Estágio do Projeto: 
+
 Conversão de métricas da performance do modelo em resultados financeiros
 ![](img/stage.PNG)
 
