@@ -33,13 +33,13 @@ https://sejaumdatascientist.com/como-usar-data-science-para-fazer-a-empresa-vend
 Projeto original disponível na plataforma Kaggle
 https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
-## 2.0 Ferramentas e Requisitos
+## 2.0 Ferramentas e Requisitos:
 * Linguagem: Python
 * Desenvolvimento e entrega do projeto: Jupyter Notebook
 * Cloud: Heroku
 * Plataforma de Request: Google Sheets
 
-## 3.0 Premissas
+## 3.0 Premissas:
 * A variavel resposta (Response) será considerada neste projeto como uma aquisição real de seguro de automóvel, ainda que neste problema fictício ela representa somente uma resposta para uma mera pesquisa.
 * Cada aquisição de seguros de automóvel trará para a empresa uma margem líquida de $5,000.00 ao ano.
 * Cada ligação tem um custo de 16 dólares.
@@ -101,13 +101,13 @@ XGboost Classifier (falta implementar cross validation e configurar hiperparâme
 ## 8.0 Resultados Financeiros:
 Em construção...
 
-## 9.0 Conclusions
+## 9.0 Conclusões:
 Em construção...
 
 ## 10.0 Lições Aprendidas:
 Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
 
-## 11.0 Deploy
+## 11.0 Deploy:
 API de requests de predições hospedada no Heroku através do link
 https://insurance-sales-predict.herokuapp.com/predict
 
