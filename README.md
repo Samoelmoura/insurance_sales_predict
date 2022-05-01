@@ -87,24 +87,24 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 12. Implementar um request através de Google Sheets
 10. Resultados e Conclusão
 
-## 5.0 Top 3 Data Insights
+## 5.0 Top 3 Data Insights:
 1. Clientes que já possuem seguro de automóvel dificilmente fecharão um contrato. 
 2. Clientes que já sofreram danos e acionaram o sinistro no passado são mais propensos a fechar um contrato.
 3. A região 28 contém 28% da base e tem uma média de Response de 18% de negócios fechados, bem acima da média geral.
 
-## 6.0 Machine Learning Applied
+## 6.0 Machine Learning Aplicado:
 XGboost Classifier (falta implementar cross validation e configurar hiperparâmetros)
 
-## 7.0 Machine Learning Performance
+## 7.0 Performance do Modelo:
 ![](img/model_performance.JPG)
 
-## 8.0 Business Results
+## 8.0 Resultados Financeiros:
 Em construção...
 
 ## 9.0 Conclusions
 Em construção...
 
-## 10.0 Leasson Learned
+## 10.0 Lições Aprendidas:
 Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
 
 ## 11.0 Deploy
