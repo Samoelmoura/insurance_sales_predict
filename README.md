@@ -115,7 +115,8 @@ Os canais mais utilizados apresentam médias de response bastante diferentes da 
 ###### Age:
 A média de idade entre os que não se interessam pelo produto é de 38 anos, e dos que se interessam é de 43 anos.
 ### 9.2 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
-![](img/gain_curve.jpg)
+![](img/gain_curve.JPG)
+
 Recall at 20000ktop: 46.53%
 ### 9.3 E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 Recall at 40000ktop: 81.0%
