@@ -41,8 +41,7 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
 ## 3.0 Premissas:
 * A variavel resposta (Response) será considerada neste projeto como uma aquisição real de seguro de automóvel, ainda que neste problema fictício ela representa somente uma resposta para uma mera pesquisa.
-* Cada aquisição de seguros de automóvel trará para a empresa uma margem líquida de $5,000.00 ao ano.
-* Cada ligação tem um custo de 16 dólares.
+* Cada aquisição de seguros de automóvel trará para a empresa uma margem operacional de $200.00 ao ano.
 
 ## 4.0 Planejamento da Solução:
 ###### 4.1 Objetivos:
@@ -98,11 +97,30 @@ XGboost Classifier (falta implementar cross validation e configurar hiperparâme
 ## 7.0 Performance do Modelo:
 ![](img/model_performance.JPG)
 
-## 8.0 Resultados Financeiros:
-Em construção...
+## 8.0 Retornos Financeiros:
+Caso a empresa utilizasse um modelo aleatório de listagem de clientes, efetuando 20.000 ligações, a empresa teria vendido um total de 2453 contratos. Utilizando o modelo do projeto, com um ranqueamento de clientes por propensão de compra, do mais propenso para o menos propenso, com a mesma quantidade de ligações, a empresa fará uma venda total de 4607 contratos, tendo um lift total de 2154 vendas. Com uma margem operacional de $200.00 anual por contrato fechado, o projeto contribuiu com um total de: $430800.00 dolares para a empresa.
 
-## 9.0 Conclusões:
-Em construção...
+## 9.0 Resultados e Conclusões:
+### 9.1 Principais Insights sobre os atributos mais relevantes de clientes interessados em adquirir um seguro de automóvel.
+###### Vehicle Damage e Previously Insured são os atributos mais importante da base: 
+Clientes que já possuem seguro de automóvel dificilmente fecharão um contrato. Clientes que já sofreram danos e acionaram o sinistro no passado são mais propensos a fechar um contrato.
+
+###### Region Code é importante: 
+A região 28 contém 28% da base e tem uma média de Response de 18% de negócios fechados, bem acima da média geral.
+
+###### Sales Channel é importante:
+Os canais mais utilizados apresentam médias de response bastante diferentes da média global, os canal 152 é o mais utilizado e apresenta 2% de interesse no produto, o canal 155 apresenta 2%, já os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto
+
+###### Age:
+A média de idade entre os que não se interessam pelo produto é de 38 anos, e dos que se interessam é de 43 anos.
+### 9.2 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
+![](img/gain_curve.JPG)
+
+Recall at 20000ktop: 46.53%
+### 9.3 E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
+Recall at 40000ktop: 81.0%
+### 9.4 Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
+To achieve 80.0% of recall: 39371 will be needed
 
 ## 10.0 Lições Aprendidas:
 Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
