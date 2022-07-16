@@ -122,26 +122,7 @@ Recall at 40000ktop: 81.0%
 ### 9.4 Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 To achieve 80.0% of recall: 39371 will be needed
 
-## 10.0 Lições Aprendidas:
-Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
-
-## 11.0 Deploy:
-API de requests de predições hospedada no Heroku através do link
-https://insurance-sales-predict.herokuapp.com/predict
-
-Orientações para o request: 
-* Dataframe raw integral contendo index e response (apenas para estudo)
-* Mínimo de duas amostras
-* Formato json com orient do tipo records
-
-## 12.0 Próximos Passos: 
-* Entender melhor a feature Policy_sales_channel, ela pode ser impactante no momento de efetuar um contato de venda, os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto, número bem acima da média global.
-
-## 13.0 Estágio do Projeto: 
-Conversão de métricas da performance do modelo em resultados financeiros
-![](img/stage.PNG)
-
-## 14.0 Sumário:
+## 10.0 Sumário:
 * Id: identificador único do cliente.
 * Gender: gênero do cliente.
 * Age: idade do cliente.
@@ -154,3 +135,22 @@ Conversão de métricas da performance do modelo em resultados financeiros
 * Policy sales channel: código anônimo para o canal de contato com o cliente.
 * Vintage: número de dias que o cliente se associou à empresa através da compra do seguro de saúde.
 * Response: 0, o cliente não tem interesse e 1, o cliente tem interesse.
+* 
+## 11.0 Lições Aprendidas:
+Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
+
+## 12.0 Deploy:
+API de requests de predições hospedada no Heroku através do link
+https://insurance-sales-predict.herokuapp.com/predict
+
+Orientações para o request: 
+* Dataframe raw integral contendo index e response (apenas para estudo)
+* Mínimo de duas amostras
+* Formato json com orient do tipo records
+
+## 13.0 Próximos Passos: 
+* Entender melhor a feature Policy_sales_channel, ela pode ser impactante no momento de efetuar um contato de venda, os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto, número bem acima da média global.
+
+## 14.0 Estágio do Projeto: 
+**fazer Deploy do Modelo em Produção**r Deploy do Modelo em Produção**
+![](img/project_status)
