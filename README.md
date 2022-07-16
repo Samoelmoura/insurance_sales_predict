@@ -102,23 +102,24 @@ Caso a empresa utilizasse um modelo aleatório de listagem de clientes, efetuand
 
 ## 9.0 Resultados e Conclusões:
 ### 9.1 Principais Insights sobre os atributos mais relevantes de clientes interessados em adquirir um seguro de automóvel.
-###### Vehicle Damage e Previously Insured são os atributos mais importante da base: 
+- Vehicle Damage e Previously Insured são os atributos mais importante da base: 
 Clientes que já possuem seguro de automóvel dificilmente fecharão um contrato. Clientes que já sofreram danos e acionaram o sinistro no passado são mais propensos a fechar um contrato.
 
-###### Region Code é importante: 
+- Region Code é importante: 
 A região 28 contém 28% da base e tem uma média de Response de 18% de negócios fechados, bem acima da média geral.
 
-###### Sales Channel é importante:
+- Sales Channel é importante:
 Os canais mais utilizados apresentam médias de response bastante diferentes da média global, os canal 152 é o mais utilizado e apresenta 2% de interesse no produto, o canal 155 apresenta 2%, já os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto
 
-###### Age:
+- Age:
 A média de idade entre os que não se interessam pelo produto é de 38 anos, e dos que se interessam é de 43 anos.
-### 9.2 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
-![](img/gain_curve.JPG)
 
+### 9.2 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
 Recall at 20000ktop: 46.53%
+
 ### 9.3 E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 Recall at 40000ktop: 81.0%
+
 ### 9.4 Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 To achieve 80.0% of recall: 39371 will be needed
 
@@ -135,22 +136,13 @@ To achieve 80.0% of recall: 39371 will be needed
 * Policy sales channel: código anônimo para o canal de contato com o cliente.
 * Vintage: número de dias que o cliente se associou à empresa através da compra do seguro de saúde.
 * Response: 0, o cliente não tem interesse e 1, o cliente tem interesse.
-* 
+
 ## 11.0 Lições Aprendidas:
 Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes (learning to rank), muito eficiente quando há uma base grande de clientes em potencial, mas realizar a oferta para tais clientes tem um custo associado ou um recurso finito de operadores. Em resumo, realizar um ranqueamento faz com que os clientes mais propensos a comprar o produto sejam contatados primeiro, e os menos propensos fiquem para o final da fila.
 
-## 12.0 Deploy:
-API de requests de predições hospedada no Heroku através do link
-https://insurance-sales-predict.herokuapp.com/predict
-
-Orientações para o request: 
-* Dataframe raw integral contendo index e response (apenas para estudo)
-* Mínimo de duas amostras
-* Formato json com orient do tipo records
-
-## 13.0 Próximos Passos: 
+## 12.0 Próximos Passos: 
 * Entender melhor a feature Policy_sales_channel, ela pode ser impactante no momento de efetuar um contato de venda, os canais 26, 124 e 156 apresentam por volta de 20% de interesse no produto, número bem acima da média global.
 
-## 14.0 Estágio do Projeto: 
-**fazer Deploy do Modelo em Produção**r Deploy do Modelo em Produção**
+## 13.0 Estágio do Projeto: 
+**fazer Deploy do Modelo em Produção**
 ![](img/project_status)
