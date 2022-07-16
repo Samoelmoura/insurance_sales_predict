@@ -145,4 +145,4 @@ Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes
 
 ## 13.0 Estágio do Projeto: 
 **fazer Deploy do Modelo em Produção**
-![](img/project_status)
+![](img/project_status.jpg)
