@@ -92,10 +92,10 @@ https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 3. A região 28 contém 28% da base e tem uma média de Response de 18% de negócios fechados, bem acima da média geral.
 
 ## 6.0 Machine Learning Aplicado:
-XGboost Classifier (falta implementar cross validation e configurar hiperparâmetros)
+**XGboost Classifier**
 
 ## 7.0 Performance do Modelo:
-![](img/model_performance.JPG)
+![](img/metrics.jpg)
 
 ## 8.0 Retornos Financeiros:
 Caso a empresa utilizasse um modelo aleatório de listagem de clientes, efetuando 20.000 ligações, a empresa teria vendido um total de 2453 contratos. Utilizando o modelo do projeto, com um ranqueamento de clientes por propensão de compra, do mais propenso para o menos propenso, com a mesma quantidade de ligações, a empresa fará uma venda total de 4607 contratos, tendo um lift total de 2154 vendas. Com uma margem operacional de $200.00 anual por contrato fechado, o projeto contribuiu com um total de: $430800.00 dolares para a empresa.
