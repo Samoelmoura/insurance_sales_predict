@@ -27,12 +27,6 @@ Como resultado da sua consultoria, você precisará entregar um relatório conte
 4. Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 5. Criar uma API de request.
 
-Projeto retirado do Blog Seja Um Data Scientist
-https://sejaumdatascientist.com/como-usar-data-science-para-fazer-a-empresa-vender-mais/
-
-Projeto original disponível na plataforma Kaggle
-https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
-
 ## 2.0 Ferramentas e Requisitos:
 * Linguagem: Python
 * Desenvolvimento e entrega do projeto: Jupyter Notebook
