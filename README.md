@@ -143,5 +143,5 @@ Com este projeto eu aprendi a desenvolver um sistema de ranqueamento de clientes
 ![](img/project_status.jpg)
 
 ## 14.0 Deploy em Produção:
-### Veja o vídeo demonstrativo de como funciona a consulta na prática. Direto na planilha de excel, direto no processo de tomada de decisão!
+#### Veja o vídeo demonstrativo de como funciona a consulta na prática. Direto na planilha de excel, direto no processo de tomada de decisão! A planilha de excel está fazendo uma requisição em um servidor em núvem, e recebendo de volta uma coluna nova com as propensões do cliente comprar ou não o produto.
 https://user-images.githubusercontent.com/42255063/204086441-05913378-892f-4f54-ac9b-f026ea89e9ce.mp4
