@@ -94,6 +94,7 @@ Como resultado da sua consultoria, você precisará entregar um relatório conte
 
 ## 8.0 Retornos Financeiros:
 Caso a empresa utilizasse um modelo aleatório de listagem de clientes, efetuando 20.000 ligações, a empresa teria vendido um total de 2453 contratos. Utilizando o modelo do projeto, com um ranqueamento de clientes por propensão de compra, do mais propenso para o menos propenso, com a mesma quantidade de ligações, a empresa fará uma venda total de 4607 contratos, tendo um lift total de 2154 vendas. Com uma margem operacional de $200.00 anual por contrato fechado, o projeto contribuiu com um total de: $430800.00 dolares para a empresa.
+![](img/gain_curve.JPG)
 
 ## 9.0 Resultados e Conclusões:
 ### 9.1 Principais Insights sobre os atributos mais relevantes de clientes interessados em adquirir um seguro de automóvel.
